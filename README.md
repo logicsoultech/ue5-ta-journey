@@ -15,7 +15,19 @@
 - 📂 Every phase documented here with screenshots and technical analysis
 
 ---
+## 🧠 Why Technical Artist — And Why Now
 
+As AI tools automate repetitive optimization tasks, the most valuable TA will be the one who:
+
+1. **Understands WHY** something needs optimization — not just how to execute it
+2. **Bridges communication** between art teams and engineers
+3. **Leverages AI tools** as a force multiplier, not a threat
+4. **Documents and systematizes** workflows so entire teams move faster
+
+I am 35. I am starting later than most. But I bring something most entry-level candidates do not: **real professional context, a gamer's instinct refined over 27 years, an engineer's way of reading systems, and the patience that only comes from knowing what sustained hard work actually looks like.**
+
+
+---
 ## 👤 About Me
 
 I'm a **35-year-old career transitioner** from Indonesia with a background in **Electrical Engineering** and over a decade of professional experience across B2B sales, retail, property, and logistics.
@@ -226,19 +238,7 @@ All bugs documented in detail in [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md).
 
 ---
 
-## 🧠 Why Technical Artist — And Why Now
 
-As AI tools automate repetitive optimization tasks, the most valuable TA will be the one who:
-
-1. **Understands WHY** something needs optimization — not just how to execute it
-2. **Bridges communication** between art teams and engineers
-3. **Leverages AI tools** as a force multiplier, not a threat
-4. **Documents and systematizes** workflows so entire teams move faster
-
-I am 35. I am starting later than most. But I bring something most entry-level candidates do not: **real professional context, a gamer's instinct refined over 27 years, an engineer's way of reading systems, and the patience that only comes from knowing what sustained hard work actually looks like.**
-
-
----
 
 > *This repository is a living document. Updated with every meaningful step forward.*
 
