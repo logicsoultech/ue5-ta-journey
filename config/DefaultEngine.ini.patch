@@ -1,0 +1,49 @@
+# DefaultEngine.ini — Project Config Patches
+
+This file documents settings added to `Config/DefaultEngine.ini` and the reason for each.
+Copy the relevant lines into your own DefaultEngine.ini under the matching section header.
+
+---
+
+## Applied patches
+
+### [SystemSettings]
+
+```ini
+[SystemSettings]
+
+; FIX: UE 5.4 Shadow Denoiser ghost artifact
+; Symptom: Moving objects leave a faint shadow "ghost" from the previous frame.
+; Root cause: Shadow Denoiser bug specific to UE 5.4 — denoiser fails to discard
+;             the previous frame's shadow data correctly on animated objects.
+; Applied: Week 1
+; Reference: TROUBLESHOOTING.md — "Ghost shadow / motion blur artifact on Stormtroopers"
+r.Shadow.Denoiser=0
+```
+
+---
+
+## Notes on .ini syntax
+
+UE console commands use a **space** as separator:
+```
+r.Shadow.Denoiser 0       ← console (session only)
+```
+
+UE .ini files use an **equals sign**:
+```ini
+r.Shadow.Denoiser=0       ← DefaultEngine.ini (persistent)
+```
+
+Writing the wrong separator in the .ini file will cause the setting to be silently ignored.
+
+---
+
+## How to apply
+
+1. Navigate to your project folder → `Config/` → open `DefaultEngine.ini` in a text editor.
+2. Search for `[SystemSettings]`. If the section does not exist, add it at the bottom of the file.
+3. Add the desired lines under the section header.
+4. Save the file.
+5. Reopen the project in Unreal Engine — settings apply automatically on startup.
+6. Commit this file to Git so the fix travels with the project.
