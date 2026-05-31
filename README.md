@@ -10,7 +10,7 @@
 - 🎯 Target: Technical Artist — Shader & Optimization specialist — by 2028
 - 🎮 27+ years as a gamer — **WCG 2009 competitor (Dota 1)**, across PC, online, and mobile
 - 🎼 Traditional Balinese musician — international cultural performance in Taiwan
-- 🛠️ Currently: UE5 foundations → moving to shader specialization
+- 🛠️ Currently: UE5 foundations → moving to shader specialization · Unity (adaptable from Phase 3)
 - 🤖 AI-integrated workflow (ComfyUI, Claude) from day one
 - 📂 Every phase documented here with screenshots and technical analysis
 
@@ -43,7 +43,7 @@ Today I'm channeling everything I've built across those worlds into becoming a *
 **Junior → Mid-Level Technical Artist**
 Specialization: **Shader Development · Real-Time Optimization · AI-Integrated Workflows**
 Timeline: **2 Years (2026 – 2028)**
-Engine: **Unreal Engine 5**
+Engine: Unreal Engine 5 (primary) · Unity (adaptable)
 
 ---
 
@@ -164,7 +164,7 @@ Foundation   Shader        Optimization AI+Portfolio  Studio Ready
 | May 2026 | Phase 1 | Decal material workaround — white texture recolored via node graph | ✅ Done |
 | — | Phase 1 | Math & Vector fundamentals | 🔄 Ongoing |
 | — | Phase 1 | Material Editor & PBR Workflow | 🔜 Next |
-
+> Full daily logs, technical breakdowns, and screenshots are documented in the [`progress/`](progress/) directory.
 ---
 
 ## 🔬 First Technical Findings — Week 1
@@ -227,7 +227,7 @@ All bugs documented in detail in [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md).
 
 | Category | Tools |
 |----------|-------|
-| Real-Time Engine | Unreal Engine 5.4 |
+| Real-Time Engine | Unreal Engine 5.4 (primary) · Unity (planned)
 | Shader / Material | UE Material Editor, HLSL (in progress) |
 | Profiling | Shader Complexity, Unreal Insights, RenderDoc |
 | AI — Image & Texture | ComfyUI + ControlNet + LoRA |
